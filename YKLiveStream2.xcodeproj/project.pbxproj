@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153A98BC1F7E38C000E25869 /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98BB1F7E38C000E25869 /* LiveStream.swift */; };
+		153A98BE1F7E390600E25869 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98BD1F7E390600E25869 /* Live.swift */; };
+		153A98C01F7E393200E25869 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98BF1F7E393200E25869 /* Label.swift */; };
+		153A98C21F7E395E00E25869 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98C11F7E395E00E25869 /* Extra.swift */; };
+		153A98C41F7E399200E25869 /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98C31F7E399200E25869 /* Creator.swift */; };
+		153A98C61F7E39B400E25869 /* ActInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98C51F7E39B400E25869 /* ActInfo.swift */; };
+		153A98C81F7E558F00E25869 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A98C71F7E558F00E25869 /* LiveTableViewCell.swift */; };
+		156CB7A71F8B25E3008FE54B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CB7A51F8B2570008FE54B /* IJKMediaFramework.framework */; };
+		156CB7A81F8B2609008FE54B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CB7A61F8B2570008FE54B /* libcrypto.a */; };
+		156CB7A91F8B2609008FE54B /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CB7A41F8B2570008FE54B /* librtmp.a */; };
+		156CB7AA1F8B2609008FE54B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CB7A31F8B2570008FE54B /* libssl.a */; };
+		156CB7B01F8B5F17008FE54B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CB7AE1F8B5F17008FE54B /* libz.tbd */; };
+		156CB7B11F8B5F17008FE54B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CB7AF1F8B5F17008FE54B /* libbz2.tbd */; };
+		156CB7B51F8B74FB008FE54B /* DMHeartFlyView.h in Sources */ = {isa = PBXBuildFile; fileRef = 156CB7B31F8B6D63008FE54B /* DMHeartFlyView.h */; };
+		156CB7B61F8B7510008FE54B /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 156CB7B41F8B6D63008FE54B /* DMHeartFlyView.m */; };
+		156CB7B81F8B8FBE008FE54B /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CB7B71F8B8FBE008FE54B /* emmitParticles.swift */; };
+		15D7A8F81F7E146C004B579E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7A8F71F7E146C004B579E /* AppDelegate.swift */; };
+		15D7A8FA1F7E146C004B579E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7A8F91F7E146C004B579E /* ViewController.swift */; };
+		15D7A8FD1F7E146C004B579E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D7A8FB1F7E146C004B579E /* Main.storyboard */; };
+		15D7A8FF1F7E146C004B579E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D7A8FE1F7E146C004B579E /* Assets.xcassets */; };
+		15D7A9021F7E146C004B579E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D7A9001F7E146C004B579E /* LaunchScreen.storyboard */; };
+		15D7A9111F7E1EB3004B579E /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7A9101F7E1EB3004B579E /* YKCell.swift */; };
+		15D7A9131F7E238F004B579E /* LivesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7A9121F7E238F004B579E /* LivesTableViewController.swift */; };
+		15D7A9151F7E2F7F004B579E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 15D7A9141F7E2F7F004B579E /* Podfile */; };
+		AACEA47375F47D989F5A38F5 /* Pods_YKLiveStream2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F708BC5044D6120F89CAF1 /* Pods_YKLiveStream2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		153A98BB1F7E38C000E25869 /* LiveStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
+		153A98BD1F7E390600E25869 /* Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
+		153A98BF1F7E393200E25869 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		153A98C11F7E395E00E25869 /* Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
+		153A98C31F7E399200E25869 /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		153A98C51F7E39B400E25869 /* ActInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActInfo.swift; sourceTree = "<group>"; };
+		153A98C71F7E558F00E25869 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		156CB7A31F8B2570008FE54B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		156CB7A41F8B2570008FE54B /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		156CB7A51F8B2570008FE54B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		156CB7A61F8B2570008FE54B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		156CB7AB1F8B264E008FE54B /* YKLiveStream2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKLiveStream2-Bridging-Header.h"; sourceTree = "<group>"; };
+		156CB7AE1F8B5F17008FE54B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		156CB7AF1F8B5F17008FE54B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		156CB7B31F8B6D63008FE54B /* DMHeartFlyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		156CB7B41F8B6D63008FE54B /* DMHeartFlyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		156CB7B71F8B8FBE008FE54B /* emmitParticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		15D7A8F41F7E146C004B579E /* YKLiveStream2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKLiveStream2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D7A8F71F7E146C004B579E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15D7A8F91F7E146C004B579E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15D7A8FC1F7E146C004B579E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D7A8FE1F7E146C004B579E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D7A9011F7E146C004B579E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D7A9031F7E146C004B579E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D7A9101F7E1EB3004B579E /* YKCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
+		15D7A9121F7E238F004B579E /* LivesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivesTableViewController.swift; sourceTree = "<group>"; };
+		15D7A9141F7E2F7F004B579E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48F708BC5044D6120F89CAF1 /* Pods_YKLiveStream2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKLiveStream2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A75631B201EFFCB818306B7 /* Pods-YKLiveStream2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream2.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream2/Pods-YKLiveStream2.release.xcconfig"; sourceTree = "<group>"; };
+		D529832A294B2E10A621582B /* Pods-YKLiveStream2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream2/Pods-YKLiveStream2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D7A8F11F7E146C004B579E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156CB7A81F8B2609008FE54B /* libcrypto.a in Frameworks */,
+				156CB7B11F8B5F17008FE54B /* libbz2.tbd in Frameworks */,
+				156CB7B01F8B5F17008FE54B /* libz.tbd in Frameworks */,
+				156CB7A91F8B2609008FE54B /* librtmp.a in Frameworks */,
+				156CB7AA1F8B2609008FE54B /* libssl.a in Frameworks */,
+				156CB7A71F8B25E3008FE54B /* IJKMediaFramework.framework in Frameworks */,
+				AACEA47375F47D989F5A38F5 /* Pods_YKLiveStream2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156CB7B21F8B6D63008FE54B /* HeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				156CB7B31F8B6D63008FE54B /* DMHeartFlyView.h */,
+				156CB7B41F8B6D63008FE54B /* DMHeartFlyView.m */,
+			);
+			path = HeartFlyView;
+			sourceTree = "<group>";
+		};
+		15D7A8EB1F7E146C004B579E = {
+			isa = PBXGroup;
+			children = (
+				156CB7A51F8B2570008FE54B /* IJKMediaFramework.framework */,
+				156CB7A61F8B2570008FE54B /* libcrypto.a */,
+				156CB7A41F8B2570008FE54B /* librtmp.a */,
+				156CB7A31F8B2570008FE54B /* libssl.a */,
+				156CB7AF1F8B5F17008FE54B /* libbz2.tbd */,
+				156CB7AE1F8B5F17008FE54B /* libz.tbd */,
+				15D7A8F61F7E146C004B579E /* YKLiveStream2 */,
+				15D7A8F51F7E146C004B579E /* Products */,
+				50A941A680B1810D22AC4229 /* Pods */,
+				B655FAB3BB76DB80627A44A4 /* Frameworks */,
+				15D7A9141F7E2F7F004B579E /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		15D7A8F51F7E146C004B579E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D7A8F41F7E146C004B579E /* YKLiveStream2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D7A8F61F7E146C004B579E /* YKLiveStream2 */ = {
+			isa = PBXGroup;
+			children = (
+				156CB7B21F8B6D63008FE54B /* HeartFlyView */,
+				15D7A9091F7E1DF6004B579E /* Model */,
+				15D7A8F71F7E146C004B579E /* AppDelegate.swift */,
+				15D7A8F91F7E146C004B579E /* ViewController.swift */,
+				15D7A9121F7E238F004B579E /* LivesTableViewController.swift */,
+				153A98C71F7E558F00E25869 /* LiveTableViewCell.swift */,
+				156CB7B71F8B8FBE008FE54B /* emmitParticles.swift */,
+				15D7A8FE1F7E146C004B579E /* Assets.xcassets */,
+				15D7A8FB1F7E146C004B579E /* Main.storyboard */,
+				15D7A9001F7E146C004B579E /* LaunchScreen.storyboard */,
+				15D7A9031F7E146C004B579E /* Info.plist */,
+				156CB7AB1F8B264E008FE54B /* YKLiveStream2-Bridging-Header.h */,
+			);
+			path = YKLiveStream2;
+			sourceTree = "<group>";
+		};
+		15D7A9091F7E1DF6004B579E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15D7A9101F7E1EB3004B579E /* YKCell.swift */,
+				153A98BB1F7E38C000E25869 /* LiveStream.swift */,
+				153A98BD1F7E390600E25869 /* Live.swift */,
+				153A98BF1F7E393200E25869 /* Label.swift */,
+				153A98C11F7E395E00E25869 /* Extra.swift */,
+				153A98C31F7E399200E25869 /* Creator.swift */,
+				153A98C51F7E39B400E25869 /* ActInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50A941A680B1810D22AC4229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D529832A294B2E10A621582B /* Pods-YKLiveStream2.debug.xcconfig */,
+				8A75631B201EFFCB818306B7 /* Pods-YKLiveStream2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B655FAB3BB76DB80627A44A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F708BC5044D6120F89CAF1 /* Pods_YKLiveStream2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D7A8F31F7E146C004B579E /* YKLiveStream2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D7A9061F7E146C004B579E /* Build configuration list for PBXNativeTarget "YKLiveStream2" */;
+			buildPhases = (
+				5BBF86869F77071CF89A575F /* [CP] Check Pods Manifest.lock */,
+				15D7A8F01F7E146C004B579E /* Sources */,
+				15D7A8F11F7E146C004B579E /* Frameworks */,
+				15D7A8F21F7E146C004B579E /* Resources */,
+				6A8973CA2DA1FDD77786DECB /* [CP] Embed Pods Frameworks */,
+				A43D5AB99F328D5E94B7F4B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKLiveStream2;
+			productName = YKLiveStream2;
+			productReference = 15D7A8F41F7E146C004B579E /* YKLiveStream2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D7A8EC1F7E146C004B579E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chenxi;
+				TargetAttributes = {
+					15D7A8F31F7E146C004B579E = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15D7A8EF1F7E146C004B579E /* Build configuration list for PBXProject "YKLiveStream2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D7A8EB1F7E146C004B579E;
+			productRefGroup = 15D7A8F51F7E146C004B579E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D7A8F31F7E146C004B579E /* YKLiveStream2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D7A8F21F7E146C004B579E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D7A9021F7E146C004B579E /* LaunchScreen.storyboard in Resources */,
+				15D7A8FF1F7E146C004B579E /* Assets.xcassets in Resources */,
+				15D7A9151F7E2F7F004B579E /* Podfile in Resources */,
+				15D7A8FD1F7E146C004B579E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BBF86869F77071CF89A575F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8973CA2DA1FDD77786DECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKLiveStream2/Pods-YKLiveStream2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43D5AB99F328D5E94B7F4B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKLiveStream2/Pods-YKLiveStream2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D7A8F01F7E146C004B579E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156CB7B61F8B7510008FE54B /* DMHeartFlyView.m in Sources */,
+				156CB7B51F8B74FB008FE54B /* DMHeartFlyView.h in Sources */,
+				15D7A9111F7E1EB3004B579E /* YKCell.swift in Sources */,
+				15D7A8FA1F7E146C004B579E /* ViewController.swift in Sources */,
+				153A98C41F7E399200E25869 /* Creator.swift in Sources */,
+				153A98C21F7E395E00E25869 /* Extra.swift in Sources */,
+				156CB7B81F8B8FBE008FE54B /* emmitParticles.swift in Sources */,
+				153A98C81F7E558F00E25869 /* LiveTableViewCell.swift in Sources */,
+				153A98C61F7E39B400E25869 /* ActInfo.swift in Sources */,
+				153A98BC1F7E38C000E25869 /* LiveStream.swift in Sources */,
+				15D7A8F81F7E146C004B579E /* AppDelegate.swift in Sources */,
+				15D7A9131F7E238F004B579E /* LivesTableViewController.swift in Sources */,
+				153A98C01F7E393200E25869 /* Label.swift in Sources */,
+				153A98BE1F7E390600E25869 /* Live.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15D7A8FB1F7E146C004B579E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D7A8FC1F7E146C004B579E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15D7A9001F7E146C004B579E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D7A9011F7E146C004B579E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D7A9041F7E146C004B579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15D7A9051F7E146C004B579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D7A9071F7E146C004B579E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D529832A294B2E10A621582B /* Pods-YKLiveStream2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTWNV925HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YKLiveStream2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi..YKLiveStream2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YKLiveStream2/YKLiveStream2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15D7A9081F7E146C004B579E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A75631B201EFFCB818306B7 /* Pods-YKLiveStream2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTWNV925HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YKLiveStream2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi..YKLiveStream2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YKLiveStream2/YKLiveStream2-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D7A8EF1F7E146C004B579E /* Build configuration list for PBXProject "YKLiveStream2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D7A9041F7E146C004B579E /* Debug */,
+				15D7A9051F7E146C004B579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D7A9061F7E146C004B579E /* Build configuration list for PBXNativeTarget "YKLiveStream2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D7A9071F7E146C004B579E /* Debug */,
+				15D7A9081F7E146C004B579E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D7A8EC1F7E146C004B579E /* Project object */;
+}
