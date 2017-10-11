@@ -21,16 +21,23 @@ class LivesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        UIApplication.shared.statusBarStyle = .lightContent;
+        
         loadList()
         
         self.refreshControl = UIRefreshControl()
         
         refreshControl?.addTarget(self, action: #selector(loadList), for: .valueChanged)
         
+        let navBar:UINavigationBar = (navigationController?.navigationBar)!
+        
+        navBar.barTintColor = UIColor.cyan
+        
+        navBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 550.0
+        return 600.0
     }
     
     @objc func loadList() {
@@ -81,6 +88,10 @@ class LivesTableViewController: UITableViewController {
         cell.labelViewers.text = "\(live.viewers)"
         
         let imgUrl = URL(string: live.portrait)
+        
+        cell.imgPor.layer.masksToBounds = true
+        
+        cell.imgPor.layer.cornerRadius = cell.imgPor.frame.size.height / 2
         
         //小头像
         cell.imgPor.kf.setImage(with: imgUrl)

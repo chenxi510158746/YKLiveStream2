@@ -87,6 +87,7 @@ class ViewController: UIViewController {
         setPlayerView()
         
         bringBtnToFront()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

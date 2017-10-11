@@ -27,21 +27,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ksp-hM-G0z">
-                                            <rect key="frame" x="8" y="8" width="60" height="60"/>
+                                            <rect key="frame" x="3" y="8" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="XsE-hw-n0I"/>
                                             </constraints>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerradius">
-                                                    <integer key="value" value="30"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3RH-0M-fc7">
-                                            <rect key="frame" x="15" y="77" width="345" height="505"/>
+                                            <rect key="frame" x="0.0" y="77" width="375" height="505"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主播昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaJ-Eb-IxF">
-                                            <rect key="frame" x="76" y="8" width="70" height="21"/>
+                                            <rect key="frame" x="71" y="8" width="70" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -59,14 +54,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="address-1" translatesAutoresizingMaskIntoConstraints="NO" id="d7f-jm-a90">
-                                            <rect key="frame" x="76" y="48" width="20" height="20"/>
+                                            <rect key="frame" x="71" y="48" width="20" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="20" id="YpV-Td-GF2"/>
                                                 <constraint firstAttribute="height" constant="20" id="lEf-B0-JQT"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="10000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoB-fi-860">
-                                            <rect key="frame" x="147" y="48" width="173" height="21"/>
+                                            <rect key="frame" x="142" y="48" width="178" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -74,19 +69,19 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Ksp-hM-G0z" firstAttribute="top" secondItem="QaJ-Eb-IxF" secondAttribute="top" id="0TT-ar-XX1"/>
-                                        <constraint firstAttribute="trailing" secondItem="3RH-0M-fc7" secondAttribute="trailing" constant="15" id="3DD-9S-1MT"/>
+                                        <constraint firstAttribute="trailing" secondItem="3RH-0M-fc7" secondAttribute="trailing" id="3DD-9S-1MT"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QaJ-Eb-IxF" secondAttribute="trailing" constant="20" symbolic="YES" id="5sf-Xw-iZb"/>
                                         <constraint firstItem="d7f-jm-a90" firstAttribute="bottom" secondItem="uSb-RJ-55l" secondAttribute="bottom" id="Bd1-Tn-tXd"/>
-                                        <constraint firstItem="Ksp-hM-G0z" firstAttribute="leading" secondItem="F3z-oQ-a14" secondAttribute="leadingMargin" id="DRc-Ng-Wp7"/>
+                                        <constraint firstItem="Ksp-hM-G0z" firstAttribute="leading" secondItem="F3z-oQ-a14" secondAttribute="leadingMargin" constant="-5" id="DRc-Ng-Wp7"/>
                                         <constraint firstItem="Ksp-hM-G0z" firstAttribute="bottom" secondItem="d7f-jm-a90" secondAttribute="bottom" id="I7h-oG-2WZ"/>
                                         <constraint firstItem="uSb-RJ-55l" firstAttribute="leading" secondItem="d7f-jm-a90" secondAttribute="trailing" constant="5" id="IkO-9H-8Fm"/>
                                         <constraint firstItem="Ksp-hM-G0z" firstAttribute="top" secondItem="F3z-oQ-a14" secondAttribute="topMargin" id="KSZ-0Q-zJJ"/>
                                         <constraint firstItem="QaJ-Eb-IxF" firstAttribute="leading" secondItem="d7f-jm-a90" secondAttribute="leading" id="Ktr-0A-yW7"/>
                                         <constraint firstItem="QaJ-Eb-IxF" firstAttribute="leading" secondItem="Ksp-hM-G0z" secondAttribute="trailing" constant="8" symbolic="YES" id="L5c-0b-2ul"/>
-                                        <constraint firstItem="3RH-0M-fc7" firstAttribute="leading" secondItem="F3z-oQ-a14" secondAttribute="leading" constant="15" id="MHf-CY-1xf"/>
+                                        <constraint firstItem="3RH-0M-fc7" firstAttribute="leading" secondItem="F3z-oQ-a14" secondAttribute="leading" id="MHf-CY-1xf"/>
                                         <constraint firstItem="UaP-XF-7Sv" firstAttribute="top" secondItem="F3z-oQ-a14" secondAttribute="topMargin" constant="38" id="UUb-sh-EMT"/>
                                         <constraint firstItem="UaP-XF-7Sv" firstAttribute="leading" secondItem="ZoB-fi-860" secondAttribute="trailing" constant="1" id="V7a-gU-WNl"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="3RH-0M-fc7" secondAttribute="bottom" constant="9.5" id="ZAS-KK-Eab"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="3RH-0M-fc7" secondAttribute="bottom" constant="10" id="ZAS-KK-Eab"/>
                                         <constraint firstItem="d7f-jm-a90" firstAttribute="centerY" secondItem="ZoB-fi-860" secondAttribute="centerY" id="jUm-Kk-Yb4"/>
                                         <constraint firstItem="3RH-0M-fc7" firstAttribute="top" secondItem="UaP-XF-7Sv" secondAttribute="bottom" constant="10" id="mKo-W6-3VR"/>
                                         <constraint firstItem="ZoB-fi-860" firstAttribute="leading" secondItem="uSb-RJ-55l" secondAttribute="trailing" constant="15" id="oGf-TF-vvH"/>
