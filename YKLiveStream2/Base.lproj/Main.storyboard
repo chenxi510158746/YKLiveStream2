@@ -27,16 +27,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ksp-hM-G0z">
-                                            <rect key="frame" x="3" y="8" width="60" height="60"/>
+                                            <rect key="frame" x="3" y="8" width="60" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="XsE-hw-n0I"/>
                                             </constraints>
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3RH-0M-fc7">
-                                            <rect key="frame" x="0.0" y="77" width="375" height="505"/>
+                                            <rect key="frame" x="0.0" y="82" width="375" height="495"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主播昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaJ-Eb-IxF">
-                                            <rect key="frame" x="71" y="8" width="70" height="21"/>
+                                            <rect key="frame" x="71" y="8" width="70" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -54,14 +54,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="address-1" translatesAutoresizingMaskIntoConstraints="NO" id="d7f-jm-a90">
-                                            <rect key="frame" x="71" y="48" width="20" height="20"/>
+                                            <rect key="frame" x="71" y="46" width="20" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="20" id="YpV-Td-GF2"/>
                                                 <constraint firstAttribute="height" constant="20" id="lEf-B0-JQT"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="10000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoB-fi-860">
-                                            <rect key="frame" x="142" y="48" width="178" height="21"/>
+                                            <rect key="frame" x="142" y="46" width="178" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -81,14 +81,14 @@
                                         <constraint firstItem="3RH-0M-fc7" firstAttribute="leading" secondItem="F3z-oQ-a14" secondAttribute="leading" id="MHf-CY-1xf"/>
                                         <constraint firstItem="UaP-XF-7Sv" firstAttribute="top" secondItem="F3z-oQ-a14" secondAttribute="topMargin" constant="38" id="UUb-sh-EMT"/>
                                         <constraint firstItem="UaP-XF-7Sv" firstAttribute="leading" secondItem="ZoB-fi-860" secondAttribute="trailing" constant="1" id="V7a-gU-WNl"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="3RH-0M-fc7" secondAttribute="bottom" constant="10" id="ZAS-KK-Eab"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="3RH-0M-fc7" secondAttribute="bottom" constant="15" id="ZAS-KK-Eab"/>
                                         <constraint firstItem="d7f-jm-a90" firstAttribute="centerY" secondItem="ZoB-fi-860" secondAttribute="centerY" id="jUm-Kk-Yb4"/>
-                                        <constraint firstItem="3RH-0M-fc7" firstAttribute="top" secondItem="UaP-XF-7Sv" secondAttribute="bottom" constant="10" id="mKo-W6-3VR"/>
+                                        <constraint firstItem="3RH-0M-fc7" firstAttribute="top" secondItem="UaP-XF-7Sv" secondAttribute="bottom" constant="15" id="mKo-W6-3VR"/>
                                         <constraint firstItem="ZoB-fi-860" firstAttribute="leading" secondItem="uSb-RJ-55l" secondAttribute="trailing" constant="15" id="oGf-TF-vvH"/>
                                         <constraint firstItem="d7f-jm-a90" firstAttribute="centerY" secondItem="uSb-RJ-55l" secondAttribute="centerY" id="qQX-LL-QS3"/>
                                         <constraint firstItem="uSb-RJ-55l" firstAttribute="top" secondItem="QaJ-Eb-IxF" secondAttribute="bottom" constant="18" id="rgP-ZZ-Q0v"/>
                                         <constraint firstItem="UaP-XF-7Sv" firstAttribute="trailing" secondItem="F3z-oQ-a14" secondAttribute="trailingMargin" id="ttR-qD-hP6"/>
-                                        <constraint firstItem="3RH-0M-fc7" firstAttribute="top" secondItem="ZoB-fi-860" secondAttribute="bottom" constant="8" symbolic="YES" id="ufk-xf-xN3"/>
+                                        <constraint firstItem="3RH-0M-fc7" firstAttribute="top" secondItem="ZoB-fi-860" secondAttribute="bottom" constant="15" id="ufk-xf-xN3"/>
                                         <constraint firstItem="d7f-jm-a90" firstAttribute="top" secondItem="ZoB-fi-860" secondAttribute="top" id="z7s-CO-WXb"/>
                                     </constraints>
                                 </tableViewCellContentView>
